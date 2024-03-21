@@ -1,0 +1,92 @@
+body {
+    font-family: "Carter One", system-ui, sans-serif;
+    color: white;
+}
+
+
+.navbar{
+    background-color:black;
+}
+
+#cabecalho .nav .nav-link.active {
+background-color: white;
+color:red;
+}
+
+#cabecalho .nav .nav-link, .navbar-brand, .navbar-brand:hover, .nav-galeria .nav-link.active:hover{
+color: white;
+}
+
+
+
+.navbar-toggler {
+background-color:red;
+}
+
+.section-title {
+    font-family: "Carter One", system-ui, sans-serif;
+}
+
+
+
+#sobre, #galeria {
+    background-color:rgb(41, 40, 40);
+}
+
+.text-colored {
+    color:red;
+}
+
+.nav-galeria .nav-link.active {
+    background-color:black;
+    color: white;
+}
+
+.nav-galeria .nav-link:hover {
+    color:red;
+
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+.carousel-item img{
+    width: 1920px;
+    height: 720px;
+}
+
+#servicos,#fale-conosco{
+    background-color: black;
+}
+
+.btn.fw-bold {
+    color:red;
+    background-color: white;
+}
+
+header .container h1 {
+    font-size: 40px;
+}
+
+#servicos img,#galeria img {
+    height: 200px;
+    height: 200px;
+    
+}
+
+.nav-galeria button{
+    color: red;
+    font-size: 30px;
+}
